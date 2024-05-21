@@ -44,7 +44,7 @@ spec:
         app: frontend
     spec:
       containers:
-        # 구버전
+        # 구버전 테스트
         #- image: jungjunsung/webtest:23.0
         # 신버전
         - image: jungjunsung/wtest:6.0
