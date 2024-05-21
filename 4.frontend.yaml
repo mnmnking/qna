@@ -44,7 +44,9 @@ spec:
         app: frontend
     spec:
       containers:
+        # 구버전
         #- image: jungjunsung/webtest:23.0
+        # 신버전
         - image: jungjunsung/wtest:6.0
           name: front
           volumeMounts:
