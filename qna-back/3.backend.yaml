@@ -61,7 +61,7 @@ spec:
   capacity:
     storage: 10Gi
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   hostPath:
     path: "/backend-storage/b1"
 
@@ -75,11 +75,10 @@ metadata:
     app: backend
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 100Mi
-  #storageClassName: ""
 
 ---
 apiVersion: v1
