@@ -16,7 +16,10 @@ spec:
         app: frontend
     spec:
       containers:
-        - image: jungjunsung/webtest:23.0
+        # 수정_1
+        #- image: jungjunsung/webtest:23.0
+        # 수정_2
+        - image: jungjunsung/cicd:3.0
           name: front
           volumeMounts:
             - mountPath: /etc/localtime
