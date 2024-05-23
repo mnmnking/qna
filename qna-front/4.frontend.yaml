@@ -21,9 +21,9 @@ spec:
         # 수정_2
         #- image: jungjunsung/cicd:4.0
         # 원본
-        - image: jungjunsung/qna-web:v1.0
+        #- image: jungjunsung/qna-web:v1.0
         # 수정_1
-        #- image: jungjunsung/qna-web:v2.0
+        - image: jungjunsung/qna-web:v2.0
         # 수정_2
         #- image: jungjunsung/qna-web:v3.0
           name: front
